@@ -16,34 +16,39 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Studio</title>
   </head>
   <body>
-    <header class="header containerGlobal">
+    <header class="header container-global">
       <a class="header__logo reference" href="./index.html"
-        ><span class="web">Web</span><span class="spanStudio">Studio</span></a
+        ><span class="header__logo-web">Web</span
+        ><span class="header__logo-studio">Studio</span></a
       >
       <nav>
         <ul class="header__navbar1">
           <li class="header__navbar1-item">
-            <a class="reference navigation navIndex" href="./index.html"
+            <a
+              class="reference header__navbar1-navigation navIndex"
+              href="./index.html"
               >Agencja</a
             >
           </li>
           <li class="header__navbar1-item">
-            <a class="reference navigation" href="./portfolio.html"
+            <a
+              class="reference header__navbar1-navigation"
+              href="./portfolio.html"
               >Portfolio</a
             >
           </li>
           <li class="header__navbar1-item">
-            <a class="reference navigation" href="#">Kontakt</a>
+            <a class="reference header__navbar1-navigation" href="#">Kontakt</a>
           </li>
         </ul>
       </nav>
       <ul class="header__Contact">
         <li class="header__Contact-item">
-          <a class="telMailHeader" href="mailto:info@devstudio.com">
+          <a class="header__mail-tel" href="mailto:info@devstudio.com">
             <svg
               style="width: 14px; height: 14px"
               class="headerPhoneAndMailSvg"
@@ -56,7 +61,7 @@
         </li>
         <li class="header__Contact-item">
           <span class="phoneAndMail"
-            ><a class="telMailHeader" href="tel:+48111111111">
+            ><a class="header__mail-tel" href="tel:+48111111111">
               <svg
                 style="width: 14px; height: 14px"
                 alt="telefon"
@@ -73,7 +78,7 @@
 
     <main>
       <section class="section heading-section">
-        <div class="containerGlobal heading-section__wrapper">
+        <div class="container-global heading-section__wrapper">
           <h1 class="heading-section__title">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
@@ -83,11 +88,16 @@
         </div>
       </section>
       <section class="section" style="padding-bottom: 0px">
-        <div class="containerGlobal">
+        <div class="container-global">
           <ul class="section-card-lorem">
             <li class="list-element section-card-lorem__item">
-              <div class="section-card-lorem__picture">
-                <svg class="loremIpsumSvg" alt="antena" width="70" height="70">
+              <div class="section-card-lorem__pictures">
+                <svg
+                  class="section-card-lorem__picture"
+                  alt="antena"
+                  width="70"
+                  height="70"
+                >
                   <use xlink:href="./Images/icons.svg#icon-antenna1"></use>
                 </svg>
               </div>
@@ -98,8 +108,13 @@
               </p>
             </li>
             <li class="list-element section-card-lorem__item">
-              <div class="section-card-lorem__picture">
-                <svg class="loremIpsumSvg" alt="zegar" width="70" height="70">
+              <div class="section-card-lorem__pictures">
+                <svg
+                  class="section-card-lorem__picture"
+                  alt="zegar"
+                  width="70"
+                  height="70"
+                >
                   <use xlink:href="./Images/icons.svg#icon-clock1"></use>
                 </svg>
               </div>
@@ -110,8 +125,13 @@
               </p>
             </li>
             <li class="list-element section-card-lorem__item">
-              <div class="section-card-lorem__picture">
-                <svg class="loremIpsumSvg" alt="diagram" width="70" height="70">
+              <div class="section-card-lorem__pictures">
+                <svg
+                  class="section-card-lorem__picture"
+                  alt="diagram"
+                  width="70"
+                  height="70"
+                >
                   <use xlink:href="./Images/icons.svg#icon-diagram1"></use>
                 </svg>
               </div>
@@ -123,9 +143,9 @@
             </li>
 
             <li class="list-element section-card-lorem__item">
-              <div class="section-card-lorem__picture">
+              <div class="section-card-lorem__pictures">
                 <svg
-                  class="loremIpsumSvg"
+                  class="section-card-lorem__picture"
                   alt="astonauta"
                   width="70"
                   height="70"
@@ -144,11 +164,11 @@
       </section>
 
       <section class="section">
-        <div class="containerGlobal">
-          <h2 class="mainSectionGlobal">Czym się zajmujemy</h2>
+        <div class="container-global">
+          <h2 class="main-section-global">Czym się zajmujemy</h2>
 
           <ul class="cards-image">
-            <li class="list-element cards-image__card">
+            <li class="list-element cards-img__card">
               <img
                 src="./Images/pone.jpg"
                 alt="kodowanie"
@@ -156,12 +176,12 @@
                 height="294"
                 class="imgIndexClass"
               />
-              <div class="cards-image__title-box">
+              <div class="cards-img_title-box">
                 <p class="cards-image__title">Aplikacje Komputerowe</p>
               </div>
             </li>
 
-            <li class="list-element cards-image__card">
+            <li class="list-element cards-img__card">
               <img
                 src="./Images/ptwo.jpg"
                 alt="telefon i laptop"
@@ -169,12 +189,12 @@
                 height="294"
                 class="imgIndexClass"
               />
-              <div class="cards-image__title-box">
+              <div class="cards-img_title-box">
                 <p class="cards-image__title">Aplikacje Mobilne</p>
               </div>
             </li>
 
-            <li class="list-element cards-image__card">
+            <li class="list-element cards-img__card">
               <img
                 src="./Images/pthree.jpg"
                 alt="tablet"
@@ -182,7 +202,7 @@
                 height="294"
                 class="imgIndexClass"
               />
-              <div class="cards-image__title-box">
+              <div class="cards-img_title-box">
                 <p class="cards-image__title">Rozwiązania graficzne</p>
               </div>
             </li>
@@ -190,8 +210,8 @@
         </div>
       </section>
       <section class="section Team">
-        <div class="containerGlobal">
-          <h2 class="mainSectionGlobal">Nasz zespół</h2>
+        <div class="container-global">
+          <h2 class="main-section-global">Nasz zespół</h2>
           <ul class="Team__cards">
             <li class="list-element">
               <figure class="figureImgGlobal">
@@ -525,8 +545,8 @@
         </div>
       </section>
       <section class="section our-clients">
-        <div class="containerGlobal">
-          <h2 class="mainSectionGlobal">Nasi klienci</h2>
+        <div class="container-global">
+          <h2 class="main-section-global">Nasi klienci</h2>
           <ul class="our-clients__cards">
             <li>
               <div class="our-clients__card">
@@ -605,11 +625,14 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="containerGlobal">
+      <div class="container-global">
         <a class="footer__logo reference" href="./index.html"
-          ><span class="web">Web</span><span class="studio">Studio</span></a
+          ><span class="header__logo-web">Web</span
+          ><span class="studio">Studio</span></a
         >
-        <address class="addres">m. Warszawa,Aleje Jerozolimskie 21</address>
+        <address class="footer__addres">
+          m. Warszawa,Aleje Jerozolimskie 21
+        </address>
         <ul class="footer__contact">
           <li class="list-element">
             <a
@@ -626,12 +649,12 @@
         </ul>
 
         <div class="footer__Socialmedia">
-          <ul class="footer__icon-social">
+          <ul class="footer__icons-social">
             <li><h4 class="footer__social-header">Dołącz do nas</h4></li>
 
-            <li class="footer__icon-social-item">
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+            <li class="footer__icon-social">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Instagram"
@@ -644,8 +667,8 @@
               </a>
             </li>
             <li>
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Twitter"
@@ -658,8 +681,8 @@
               </a>
             </li>
             <li>
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Facebook"
@@ -672,8 +695,8 @@
               </a>
             </li>
             <li>
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Linkedin"
@@ -717,21 +740,25 @@
           <label class="modal__label modalLabelIcon">
             <span class="modal__span-label">Imie</span>
 
-            <input type="text" name="name" class="modalInput modalInputName" />
+            <input
+              type="text"
+              name="name"
+              class="modal__input modalInputName"
+            />
             <svg class="modal__icon" alt="Icon Name" width="18" height="18">
               <use xlink:href="./Images/icons.svg#icon-name"></use>
             </svg>
           </label>
           <label class="modal__label modalLabelIcon">
             <span class="modal__span-label">Telefon</span>
-            <input type="tel" name="numerTel" class="modalInput" />
+            <input type="tel" name="numerTel" class="modal__input" />
             <svg class="modal__icon" alt="Icon tel" width="18" height="18">
               <use xlink:href="./Images/icons.svg#icon-tel"></use>
             </svg>
           </label>
           <label class="modal__label modalLabelIcon">
             <span class="modal__span-label">Email</span>
-            <input type="email" name="email" class="modalInput" />
+            <input type="email" name="email" class="modal__input" />
             <svg class="modal__icon" alt="Icon Email" width="18" height="18">
               <use xlink:href="./Images/icons.svg#icon-email"></use>
             </svg>

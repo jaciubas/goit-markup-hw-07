@@ -18,18 +18,21 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Document</title>
   </head>
   <body>
-    <header class="header containerGlobal">
+    <header class="header container-global">
       <a class="header__logo reference" href="./index.html"
-        ><span class="web">Web</span><span class="spanStudio">Studio</span></a
+        ><span class="header__logo-web">Web</span
+        ><span class="header__logo-studio">Studio</span></a
       >
       <nav>
         <ul class="header__navbar1">
           <li class="header__navbar1-item">
-            <a class="reference navigation" href="./index.html">Agencja</a>
+            <a class="reference header__navbar1-navigation" href="./index.html"
+              >Agencja</a
+            >
           </li>
           <li class="header__navbar1-item">
             <a class="reference navPortfolio" href="./portfolio.html"
@@ -37,13 +40,13 @@
             >
           </li>
           <li class="header__navbar1-item">
-            <a class="reference navigation" href="#">Kontakt</a>
+            <a class="reference header__navbar1-navigation" href="#">Kontakt</a>
           </li>
         </ul>
       </nav>
       <ul class="header__Contact">
         <li class="header__Contact-item">
-          <a class="telMailHeader" href="mailto:info@devstudio.com">
+          <a class="header__mail-tel" href="mailto:info@devstudio.com">
             <svg
               style="width: 14px; height: 14px"
               class="headerPhoneAndMailSvg"
@@ -56,7 +59,7 @@
         </li>
         <li class="header__Contact-item">
           <span class="phoneAndMail"
-            ><a class="telMailHeader" href="tel:+48111111111">
+            ><a class="header__mail-tel" href="tel:+48111111111">
               <svg
                 style="width: 14px; height: 14px"
                 alt="telefon"
@@ -72,7 +75,7 @@
     </header>
     <main>
       <section class="section">
-        <div class="containerGlobal">
+        <div class="container-global">
           <ul class="button-list-portfolio">
             <li class="list-element">
               <button class="button-list-portfolio__item">Wszystkie</button>
@@ -327,11 +330,14 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="containerGlobal">
+      <div class="container-global">
         <a class="footer__logo reference" href="./index.html"
-          ><span class="web">Web</span><span class="studio">Studio</span></a
+          ><span class="header__logo-web">Web</span
+          ><span class="studio">Studio</span></a
         >
-        <address class="addres">m. Warszawa,Aleje Jerozolimskie 21</address>
+        <address class="footer__addres">
+          m. Warszawa,Aleje Jerozolimskie 21
+        </address>
         <ul class="footer__contact">
           <li class="list-element">
             <a
@@ -348,12 +354,12 @@
         </ul>
 
         <div class="footer__Socialmedia">
-          <ul class="footer__icon-social">
+          <ul class="footer__icons-social">
             <li><h4 class="footer__social-header">Dołącz do nas</h4></li>
 
-            <li class="footer__icon-social-item">
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+            <li class="footer__icon-social">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Instagram"
@@ -366,8 +372,8 @@
               </a>
             </li>
             <li>
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Twitter"
@@ -380,8 +386,8 @@
               </a>
             </li>
             <li>
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Facebook"
@@ -394,8 +400,8 @@
               </a>
             </li>
             <li>
-              <a class="socialFooter" href="#">
-                <div class="childWrapperFooterSvg">
+              <a class="social-footer" href="#">
+                <div class="footer__box-icon">
                   <svg
                     class="footer__Social-icon-svg"
                     alt="Linkedin"
